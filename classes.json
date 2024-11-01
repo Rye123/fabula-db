@@ -1,0 +1,756 @@
+[
+    {
+	"name": "Arcanist",
+	"sourcebook": "Core Rules",
+	"description": "Arcanists can fall into a deep trance and temporarily project a considerable portion of their soul outside the body, giving it physical form. Surrounded by this magical shroud, the Arcanist gains a variety of supernatural abilities; these summoned forms are said to be manifestations of the ancestral souls belonging to mythical entities of legend, known as the Arcana.\nIn some worlds, the Arcana are even worshipped as deities.",
+	"benefits": {
+	    "hpBonus": 0,
+	    "mpBonus": 5,
+	    "ipBonus": 0,
+	    "martial": {
+		"melee": false,
+		"ranged": false,
+		"armor": false,
+		"shield": false
+            },
+            "rituals": {
+		"arcanism": false,
+		"chimerism": false,
+		"elementalism": false,
+		"entropism": false,
+		"ritualism": false,
+		"spiritism": false
+            },
+	    "initiateProjects": false,
+	    "custom": ""
+	}
+    },
+    {
+	"name": "Chimerist",
+	"sourcebook": "Core Rules",
+	"description": "Chimerists gather their power from the souls of the monsters and beasts they encounter.\nBy manipulating their inner wild energy, these mages may mimic the magical abilities of monsters and have reached a supernatural understanding of feral creatures.\nChimerists frequently rely on their toughness and physical prowess in addition to magic, they are often seen traveling the world in search of rare and enchanted creatures.",
+	"benefits": {
+            "hpBonus": 0,
+            "mpBonus": 5,
+            "ipBonus": 0,
+            "martial": {
+		"melee": false,
+		"ranged": false,
+		"armor": false,
+		"shield": false
+            },
+            "rituals": {
+		"arcanism": false,
+		"chimerism": false,
+		"elementalism": false,
+		"entropism": false,
+		"ritualism": true,
+		"spiritism": false
+            },
+	    "initiateProjects": false,
+	    "custom": ""
+	}
+    },
+    {
+	"name": "Darkblade",
+	"sourcebook": "Core Rules",
+	"description": "Darkblades are somber and powerful warriors who hide a sorrowful past. Due to tragic experiences on the battlefield or in personal life, their souls have developed an affinity for pain and shadow energy.\nAn unlikely hero to say the very least, a Darkblade may now sacrifice their lifeforce to unleash mighty attacks and is able to draw resolve, power and even knowledge from the suffering they experience.",
+	"benefits": {
+            "hpBonus": 5,
+            "mpBonus": 0,
+            "ipBonus": 0,
+            "martial": {
+		"melee": true,
+		"ranged": false,
+		"armor": true,
+		"shield": false
+            },
+            "rituals": {
+		"arcanism": false,
+		"chimerism": false,
+		"elementalism": false,
+		"entropism": false,
+		"ritualism": false,
+		"spiritism": false
+            },
+	    "initiateProjects": false,
+	    "custom": ""
+	}
+    },
+    {
+	"name": "Elementalist",
+	"sourcebook": "Core Rules",
+	"description": "An Elementalist has learned to channel the souls that flow within the basic elements of creation: Air, Earth, Fire and Water. Some of them develop complex spells to contain the powerful energies of nature; others seek its protection in harmony and communion.\nElemental magic can be highly destructive, causing damage and inflicting negative status effects. Due to this, there are many who would covet an Elementalist’s abilities... often for nefarious purposes.",
+	"benefits": {
+            "hpBonus": 0,
+            "mpBonus": 5,
+            "ipBonus": 0,
+            "martial": {
+		"melee": false,
+		"ranged": false,
+		"armor": false,
+		"shield": false
+            },
+            "rituals": {
+		"arcanism": false,
+		"chimerism": false,
+		"elementalism": false,
+		"entropism": false,
+		"ritualism": true,
+		"spiritism": false
+            },
+	    "initiateProjects": false,
+	    "custom": ""
+	}
+    },
+    {
+	"name": "Entropist",
+	"sourcebook": "Core Rules",
+	"description": "High above the stars, where their lights do not shine, lies a bottomless void where life and souls wither and transform in unfathomable ways.\nThis realm is a non-reality, an endless expanse of chaos impervious to the laws of time, space, and probability.\nEntropists refer to this realm as the Cosmos, the Heavens, or quite simply as Lady Luck: they are among the few gifted with the ability to channel its reality-bending energies.",
+	"benefits": {
+            "hpBonus": 0,
+            "mpBonus": 5,
+            "ipBonus": 0,
+            "martial": {
+		"melee": false,
+		"ranged": false,
+		"armor": false,
+		"shield": false
+            },
+            "rituals": {
+		"arcanism": false,
+		"chimerism": false,
+		"elementalism": false,
+		"entropism": false,
+		"ritualism": true,
+		"spiritism": false
+            },
+	    "initiateProjects": false,
+	    "custom": ""
+	}
+    },
+    {
+	"name": "Fury",
+	"sourcebook": "Core Rules",
+	"description": "Furies never know when to quit. In battle and life they are energetic, determined and often restless. Whatever ideals or desires drive their actions, they will stop at nothing and risk everything in order to achieve them.\nSome Furies undergo a rigid training in order to control their emotions; others simply see might as the solution to all problems and are constantly on the verge of letting rage get the best of them.",
+	"benefits": {
+            "hpBonus": 5,
+            "mpBonus": 0,
+            "ipBonus": 0,
+            "martial": {
+		"melee": true,
+		"ranged": false,
+		"armor": true,
+		"shield": false
+            },
+            "rituals": {
+		"arcanism": false,
+		"chimerism": false,
+		"elementalism": false,
+		"entropism": false,
+		"ritualism": false,
+		"spiritism": false
+            },
+	    "initiateProjects": false,
+	    "custom": ""
+	}
+    },
+    {
+	"name": "Guardian",
+	"sourcebook": "Core Rules",
+	"description": "Proud and selfless, Guardians are individuals who know the value of life... and are willing to sacrifice themselves for a person, nation or ideal they have sworn to protect. They are often extraordinary and impressive individuals, such as valiant soldiers or veterans scarred by a thousand battles.\nWhile some Guardians may appear loud and boisterous, many are simply masking the tormented memory of those they failed to protect.",
+	"benefits": {
+            "hpBonus": 5,
+            "mpBonus": 0,
+            "ipBonus": 0,
+            "martial": {
+		"melee": false,
+		"ranged": false,
+		"armor": true,
+		"shield": true
+            },
+            "rituals": {
+		"arcanism": false,
+		"chimerism": false,
+		"elementalism": false,
+		"entropism": false,
+		"ritualism": false,
+		"spiritism": false
+            },
+	    "initiateProjects": false,
+	    "custom": ""
+	}
+    },
+    {
+	"name": "Loremaster",
+	"sourcebook": "Core Rules",
+	"description": "Loremasters are known for their insatiable curiosity and appetite for discovery. They firmly believe that knowledge equates to power, and would often trade all gold in the world for a chance at solving a good mystery.\nUnfortunately, a majority of Loremasters tend to be aloof and easily distracted, rarely concerning themselves with “pragmatic” matters... to the point of sometimes failing to realize the darker implications of their discoveries.",
+	"benefits": {
+            "hpBonus": 0,
+            "mpBonus": 5,
+            "ipBonus": 0,
+            "martial": {
+		"melee": false,
+		"ranged": false,
+		"armor": false,
+		"shield": false
+            },
+            "rituals": {
+		"arcanism": false,
+		"chimerism": false,
+		"elementalism": false,
+		"entropism": false,
+		"ritualism": false,
+		"spiritism": false
+            },
+	    "initiateProjects": false,
+	    "custom": ""
+	}
+    },
+    {
+	"name": "Orator",
+	"sourcebook": "Core Rules",
+	"description": "Some are graceful and ever- smiling, others are subtle and witty: Orators are as good at reading someone’s heart as they are at rounding up allies for their cause, sometimes unintentionally.\nThe words of an Orator may rekindle spirits or plunge their opponents into despair: over the centuries, some Orators' talents have brought entire nations to ruin... and just as many have granted fallen kingdoms a chance to rise from their very ashes.",
+	"benefits": {
+            "hpBonus": 0,
+            "mpBonus": 5,
+            "ipBonus": 0,
+            "martial": {
+		"melee": false,
+		"ranged": false,
+		"armor": false,
+		"shield": false
+            },
+            "rituals": {
+		"arcanism": false,
+		"chimerism": false,
+		"elementalism": false,
+		"entropism": false,
+		"ritualism": false,
+		"spiritism": false
+            },
+	    "initiateProjects": false,
+	    "custom": ""
+	}
+    },
+    {
+	"name": "Rogue",
+	"sourcebook": "Core Rules",
+	"description": "Be they criminals, rebels or spies, Rogues are more than willing to play dirty in order to get what they want. Rogues are generally quick, witty and elusive: while a few of them are infamous for being mostly concerned with their personal wealth and profit, many see themselves as fighting against injustice, tyranny, or social exclusion.\nTragically, it is quite common for Rogues to end up being painted as threats by those same people they fight for.",
+	"benefits": {
+            "hpBonus": 0,
+            "mpBonus": 0,
+            "ipBonus": 2,
+            "martial": {
+		"melee": false,
+		"ranged": false,
+		"armor": false,
+		"shield": false
+            },
+            "rituals": {
+		"arcanism": false,
+		"chimerism": false,
+		"elementalism": false,
+		"entropism": false,
+		"ritualism": false,
+		"spiritism": false
+            },
+	    "initiateProjects": false,
+	    "custom": ""
+	}
+    },
+    {
+	"name": "Sharpshooter",
+	"sourcebook": "Core Rules",
+	"description": "A majority of Sharpshooters are exceptionally good at dealing with threats from a carefully calculated distance; others are brave, skilled or reckless enough to engage their foes at point-blank.\nWhile many of these skilled snipers are battle-hardened soldiers, some have turned to a life of piracy, bounty hunting or banditry. A few have put their abilities at the service of the people, or use them to protect a sacred or forbidden site from intruders.",
+	"benefits": {
+            "hpBonus": 5,
+            "mpBonus": 0,
+            "ipBonus": 0,
+            "martial": {
+		"melee": false,
+		"ranged": true,
+		"armor": false,
+		"shield": true
+            },
+            "rituals": {
+		"arcanism": false,
+		"chimerism": false,
+		"elementalism": false,
+		"entropism": false,
+		"ritualism": false,
+		"spiritism": false
+            },
+	    "initiateProjects": false,
+	    "custom": ""
+	}
+    },
+    {
+	"name": "Spiritist",
+	"sourcebook": "Core Rules",
+	"description": "Spiritists have developed a powerful connection with the raw aspects of soul: emotion, energy, life, and death. They wield power both miraculous and frightening, and are quite often affiliated with cults or religions.\nSeveral worlds see the powers of Spiritism as gifts from a deity or proof that a person's heart is pure; however, there is no definite proof of these abilities coming from anything but discipline, empathy, and focus.",
+	"benefits": {
+            "hpBonus": 0,
+            "mpBonus": 5,
+            "ipBonus": 0,
+            "martial": {
+		"melee": false,
+		"ranged": false,
+		"armor": false,
+		"shield": false
+            },
+            "rituals": {
+		"arcanism": false,
+		"chimerism": false,
+		"elementalism": false,
+		"entropism": false,
+		"ritualism": true,
+		"spiritism": false
+            },
+	    "initiateProjects": false,
+	    "custom": ""
+	}
+    },
+    {
+	"name": "Tinkerer",
+	"sourcebook": "Core Rules",
+	"description": "Tinkerers possess exceptional ingenuity and are known for their eccentric and marvelous inventions. They travel the world in an endless search for lost theories and ancient machinery, eyes glimmering whenever they witness the wonders of architecture and engineering.\nIn a way, Tinkerers could be seen as the ultimate dreamers and rebels, challenging the very rules of nature and society in their pursuit of a better future.",
+	"benefits": {
+            "hpBonus": 0,
+            "mpBonus": 0,
+            "ipBonus": 2,
+            "martial": {
+		"melee": false,
+		"ranged": false,
+		"armor": false,
+		"shield": false
+            },
+            "rituals": {
+		"arcanism": false,
+		"chimerism": false,
+		"elementalism": false,
+		"entropism": false,
+		"ritualism": false,
+		"spiritism": false
+            },
+	    "initiateProjects": true,
+	    "custom": ""
+	}
+    },
+    {
+	"name": "Wayfarer",
+	"sourcebook": "Core Rules",
+	"description": "Nomads searching for a fabled continent, explorers braving the wilds, grizzled hunters and travelers have one thing in common: they are Wayfarers.\nWhile a majority of heroes travel the world during their adventures, Wayfarers live for the journey. They are always eager to visit new places and learn from others.\nIn the eyes of a Wayfarer, the wilderness is neither foe nor an ally, but rather a stern teacher who can reveal many forgotten truths.",
+	"benefits": {
+            "hpBonus": 0,
+            "mpBonus": 0,
+            "ipBonus": 2,
+            "martial": {
+		"melee": false,
+		"ranged": false,
+		"armor": false,
+		"shield": false
+            },
+            "rituals": {
+		"arcanism": false,
+		"chimerism": false,
+		"elementalism": false,
+		"entropism": false,
+		"ritualism": false,
+		"spiritism": false
+            },
+	    "initiateProjects": false,
+	    "custom": ""
+	}
+    },
+    {
+	"name": "Weaponmaster",
+	"sourcebook": "Core Rules",
+	"description": "Weaponmasters spend years upon years honing their close combat arts. Most of them display remarkable skill with a variety of weapons; others have trained to become one with a specific armament.\nMany Weaponmasters follow and protect someone out of love or loyalty, but there are also those who tirelessly wander the world seeking worthy opponents, legendary magical weapons, or capable teachers.",
+	"benefits": {
+            "hpBonus": 5,
+            "mpBonus": 0,
+            "ipBonus": 0,
+            "martial": {
+		"melee": true,
+		"ranged": false,
+		"armor": false,
+		"shield": true
+            },
+            "rituals": {
+		"arcanism": false,
+		"chimerism": false,
+		"elementalism": false,
+		"entropism": false,
+		"ritualism": false,
+		"spiritism": false
+            },
+	    "initiateProjects": false,
+	    "custom": ""
+	}
+    },
+    {
+	"name": "Chanter",
+	"sourcebook": "High Fantasy",
+	"description": "Whether tracing their fingers on a delicate harp, dazing an unprepared audience with the sheer power of their vocals, or happily diving into a crowd of delirious fans, Chanters could be described as magical one person orchestras!\nA Chanter’s abilities reach way beyond the normal limits of music and singing: they rely on the strength of their souls and weave magical energy into songs, supporting their allies during tense situations.",
+	"benefits": {
+            "hpBonus": 0,
+            "mpBonus": 5,
+            "ipBonus": 0,
+            "martial": {
+		"melee": false,
+		"ranged": false,
+		"armor": false,
+		"shield": false
+            },
+            "rituals": {
+		"arcanism": false,
+		"chimerism": false,
+		"elementalism": false,
+		"entropism": false,
+		"ritualism": false,
+		"spiritism": false
+            },
+	    "initiateProjects": false,
+	    "custom": ""
+	}
+    },
+    {
+	"name": "Commander",
+	"sourcebook": "High Fantasy",
+	"description": "Commanders are leaders and inspiring figures. Some are of noble blood, but a majority have earned the loyalty of their comrades on the battlefield, where their iron resolve and tactical prowess were tested time and time again.\nWhen thinking about what a Commander might look like, don’t feel bound to the idea of a knight in shining armor: bandit captains, fallen nobles and students of warfare are all perfect examples of what this Class may represent.",
+	"benefits": {
+            "hpBonus": 5,
+            "mpBonus": 0,
+            "ipBonus": 0,
+            "martial": {
+		"melee": true,
+		"ranged": true,
+		"armor": false,
+		"shield": false
+            },
+            "rituals": {
+		"arcanism": false,
+		"chimerism": false,
+		"elementalism": false,
+		"entropism": false,
+		"ritualism": false,
+		"spiritism": false
+            },
+	    "initiateProjects": false,
+	    "custom": ""
+	}
+    },
+    {
+	"name": "Dancer",
+	"sourcebook": "High Fantasy",
+	"description": "Dancers are those who have trained their bodies to achieve exceptional coordination and flexibility, be it to impress a crowd with their gymnastics or to perform ancient steps meant to keep evil at bay.\nThe more gifted Dancers may direct the flow of spiritual force through repeated and precise motions, enhancing their physical abilities and manifesting magical effects.\nThey are surprisingly capable combatants, if sometimes a little... overdramatic.",
+	"benefits": {
+            "hpBonus": 0,
+            "mpBonus": 0,
+            "ipBonus": 0,
+            "martial": {
+		"melee": false,
+		"ranged": false,
+		"armor": false,
+		"shield": false
+            },
+            "rituals": {
+		"arcanism": false,
+		"chimerism": false,
+		"elementalism": false,
+		"entropism": false,
+		"ritualism": false,
+		"spiritism": false
+            },
+	    "initiateProjects": false,
+	    "custom": "Permanently increase your max HP or MP by 5 (your choice)"
+	}
+    },
+    {
+	"name": "Symbolist",
+	"sourcebook": "High Fantasy",
+	"description": "There is great power within symbols and images, and no one knows this better than a Symbolist. Rather than a magical discipline, symbolism could be described as a study of how to weave supernatural energies into signs and icons: these may be paintings, runes, talismans and more.\nMost Symbolists develop their skills through intense practice and meticulous study, but there are many who view this magical discipline as a way to freely express their artistic vision.",
+	"benefits": {
+            "hpBonus": 0,
+            "mpBonus": 0,
+            "ipBonus": 2,
+            "martial": {
+		"melee": false,
+		"ranged": false,
+		"armor": false,
+		"shield": false
+            },
+            "rituals": {
+		"arcanism": false,
+		"chimerism": false,
+		"elementalism": false,
+		"entropism": false,
+		"ritualism": false,
+		"spiritism": false
+            },
+	    "initiateProjects": false,
+	    "custom": ""
+	}
+    },
+    {
+	"name": "Esper",
+	"sourcebook": "Techno Fantasy",
+	"description": "Thought, desire and emotion are powerful forces, whose echoes influence the stream of souls that flows throughout the world.\nEspers have developed the ability to connect with this spiritual web of sensations, which scientists have dubbed “the soul network”, and rely on it to transmit information and improve their physical and mental abilities. Because of this, each Esper applies their powers in remarkably different ways.",
+	"benefits": {
+            "hpBonus": 0,
+            "mpBonus": 5,
+            "ipBonus": 0,
+            "martial": {
+		"melee": false,
+		"ranged": false,
+		"armor": false,
+		"shield": false
+            },
+            "rituals": {
+		"arcanism": false,
+		"chimerism": false,
+		"elementalism": false,
+		"entropism": false,
+		"ritualism": false,
+		"spiritism": false
+            },
+	    "initiateProjects": false,
+	    "custom": ""
+	}
+    },
+    {
+	"name": "Mutant",
+	"sourcebook": "Techno Fantasy",
+	"description": "Some say no progress can be achieved without sacrifice; conveniently enough, these sacrifices are rarely made by those in power.\nMutants are living testaments to this ruthless arrogance: people whose souls and bodies bear the signs of technological or magical pollution. Each Mutant is a unique being capable of altering their body in strange and unprecedented ways, but their powers come at a painful price and can be a dreadful sight to behold.",
+	"benefits": {
+            "hpBonus": 5,
+            "mpBonus": 0,
+            "ipBonus": 0,
+            "martial": {
+		"melee": false,
+		"ranged": false,
+		"armor": false,
+		"shield": false
+            },
+            "rituals": {
+		"arcanism": false,
+		"chimerism": false,
+		"elementalism": false,
+		"entropism": false,
+		"ritualism": false,
+		"spiritism": false
+            },
+	    "initiateProjects": false,
+	    "custom": ""
+	}
+    },
+    {
+	"name": "Pilot",
+	"sourcebook": "Techno Fantasy",
+	"description": "Be they boastful racers, trained soldiers or elegant chaffeurs, Pilots develop a special bond with their vehicle – in a way, it becomes an extension of their body, which they can rely on for battle and travel.\nWhile transports of all sorts are frequently seen in every Fabula Ultima world, a Pilot’s vehicle is something unique and irreplaceable: it could be the very mecha their mother piloted in battle, a jury-rigged aviobike that shouldn’t even be able to fly, or some sort of technological marvel.",
+	"benefits": {
+            "hpBonus": 5,
+            "mpBonus": 0,
+            "ipBonus": 0,
+            "martial": {
+		"melee": true,
+		"ranged": true,
+		"armor": false,
+		"shield": false
+            },
+            "rituals": {
+		"arcanism": false,
+		"chimerism": false,
+		"elementalism": false,
+		"entropism": false,
+		"ritualism": false,
+		"spiritism": false
+            },
+	    "initiateProjects": false,
+	    "custom": ""
+	}
+    },
+    {
+	"name": "Floralist",
+	"sourcebook": "Nature Fantasy (Playtest, 8/11/2023)",
+	"description": "Spiritual energy flows strongly within plants, thanks to their direct connection to earth. From this encounter grow magiseeds, gifted with the unique ability to thrive on spiritual energy and blossm into a majestic yet ephemeral triumph of magic.\nFloralists can identify and cultivate these strange seeds, which grant a large variety of benefits and can be combined with all sorts of disciplines, martial and magical.",
+	"benefits": {
+            "hpBonus": 0,
+            "mpBonus": 0,
+            "ipBonus": 0,
+            "martial": {
+		"melee": false,
+		"ranged": false,
+		"armor": false,
+		"shield": false
+            },
+            "rituals": {
+		"arcanism": false,
+		"chimerism": false,
+		"elementalism": false,
+		"entropism": false,
+		"ritualism": false,
+		"spiritism": false
+            },
+	    "initiateProjects": false,
+	    "custom": "Permanently increase your max HP or MP (your choice)"
+	}
+    },
+    {
+	"name": "Gourmet",
+	"sourcebook": "Nature Fantasy (Playtest, 2023/11/08)",
+	"description": "Cooking may be considered a common skill, but Gourmets refine their knowledge of foodstuffs to a level that is nothing short of supernatural: they refine the art of extracting spiritual energies from every ingredient, infusing meals with powerful magical effects! \nWhile most Gourmets are content with simply settling down in a town or village and making a living off their skills, some wander the world in a lifelong search for new ingredients.",
+	"benefits": {
+            "hpBonus": 0,
+            "mpBonus": 0,
+            "ipBonus": 1,
+            "martial": {
+		"melee": false,
+		"ranged": false,
+		"armor": false,
+		"shield": false
+            },
+            "rituals": {
+		"arcanism": false,
+		"chimerism": false,
+		"elementalism": false,
+		"entropism": false,
+		"ritualism": false,
+		"spiritism": false
+            },
+	    "initiateProjects": true,
+	    "custom": "You may start Projects to create unique food and drinks; they are always **consumable** and their **area** is based on the number and type of creatures you need to nourish."
+	}
+    },
+    {
+	"name": "Invoker",
+	"sourcebook": "Nature Fantasy (Playtest, 2023/11/08)",
+	"description": "Invokers research the innate energy of souls and the way it spontaneously flows and manifests throughout their surroundings. Even if their art relies on calling upon the power of the elements, they adapt to the existing power sources rather than force an unnatural outcome and upset the flow of spirits.\nThat said, Invokers remain formidable adventurers: they boast great flexibility and a unique affinity for elemental creatures.",
+	"benefits": {
+            "hpBonus": 0,
+            "mpBonus": 0,
+            "ipBonus": 0,
+            "martial": {
+		"melee": false,
+		"ranged": false,
+		"armor": false,
+		"shield": false
+            },
+            "rituals": {
+		"arcanism": false,
+		"chimerism": false,
+		"elementalism": false,
+		"entropism": false,
+		"ritualism": false,
+		"spiritism": false
+            },
+	    "initiateProjects": false,
+	    "custom": "Permanently increase your max HP or MP (your choice)"
+	}
+    },
+    {
+	"name": "Merchant",
+	"sourcebook": "Nature Fantasy (Playtest, 2023/11/08)",
+	"description": "Even in worlds rife with great magic, wealth and money are very influential. Trade and commerce are one key aspect to the development of nations and kingdoms, and Merchants are quite aware of this power.\nIt might seem strange for a Merchant to be treated on par with a hero: and yet, those who resist the temptation of greed and rely on commerce to foster exchanges of ideas and dialogue between distant people truly are fighting their very own revolution.",
+	"benefits": {
+            "hpBonus": 0,
+            "mpBonus": 0,
+            "ipBonus": 2,
+            "martial": {
+		"melee": false,
+		"ranged": false,
+		"armor": false,
+		"shield": false
+            },
+            "rituals": {
+		"arcanism": false,
+		"chimerism": false,
+		"elementalism": false,
+		"entropism": false,
+		"ritualism": false,
+		"spiritism": false
+            },
+	    "initiateProjects": false,
+	    "custom": ""
+	}
+    },
+    {
+	"name": "Necromancer",
+	"sourcebook": "Bonus Necromancer (Halloween Special 2022)",
+	"description": "The arts of soul manipulation have seen a wide variety of uses, but few will strike an instinctual fear in the hearts of people as Necromancy can.\nNecromancers reap spiritual energy moments before death, when it is at its brightest; this precious power can then be used to fuel their control over the balance of life and death, or even to inhabit a corpse so that it moves again. And yet, as if to mock their dark efforts, true resurrection of a lost one remains a mirage...",
+	"benefits": {
+            "hpBonus": 0,
+            "mpBonus": 0,
+            "ipBonus": 0,
+            "martial": {
+		"melee": false,
+		"ranged": false,
+		"armor": false,
+		"shield": false
+            },
+            "rituals": {
+		"arcanism": false,
+		"chimerism": false,
+		"elementalism": false,
+		"entropism": false,
+		"ritualism": false,
+		"spiritism": false
+            },
+	    "initiateProjects": false,
+	    "custom": "Permanently increase your max HP or MP (your choice)"
+	}
+    },
+    {
+	"name": "Ace of Cards",
+	"sourcebook": "Bonus Ace of Cards (April Fool's Special 2023)",
+	"description": "Aces of Cards make use of special decks to perceive the constant fluctuations of the stream of souls. Each deck is inextricably connected to its user and reflects their taste and personality: by drawing specific combinations at the right moment, an Ace of Cards manipulates magical energy to produce supernatural effects.\nIn some worlds, Aces of Cards duel against each other using their personal decks, in a quest for glory or in order to obtain precious artifacts.",
+	"benefits": {
+            "hpBonus": 0,
+            "mpBonus": 0,
+            "ipBonus": 0,
+            "martial": {
+		"melee": false,
+		"ranged": false,
+		"armor": false,
+		"shield": false
+            },
+            "rituals": {
+		"arcanism": false,
+		"chimerism": false,
+		"elementalism": false,
+		"entropism": false,
+		"ritualism": false,
+		"spiritism": false
+            },
+	    "initiateProjects": false,
+	    "custom": "Permanently increase your max HP or MP (your choice)"
+	}
+    },
+    {
+	"name": "Arcanist (Variant)",
+	"sourcebook": "Playtest 2024/10/08",
+	"description": "Arcanists can fall into a deep trance and temporarily project a considerable portion of their soul outside the body, giving it physical form. Surrounded by this magical shroud, the Arcanist gains a variety of supernatural abilities; these summoned forms are said to be manifestations of the ancestral souls belonging to mythical entities of legend, known as the Arcana.\nIn some worlds, the Arcana are even worshipped as deities.",
+	"benefits": {
+	    "hpBonus": 0,
+	    "mpBonus": 0,
+	    "ipBonus": 0,
+	    "martial": {
+		"melee": false,
+		"ranged": false,
+		"armor": false,
+		"shield": false
+            },
+            "rituals": {
+		"arcanism": false,
+		"chimerism": false,
+		"elementalism": false,
+		"entropism": false,
+		"ritualism": false,
+		"spiritism": false
+            },
+	    "initiateProjects": false,
+	    "custom": "Permanently increase your max HP or MP (your choice)"
+	}
+    },
+]

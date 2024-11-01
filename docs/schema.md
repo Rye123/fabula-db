@@ -3,9 +3,10 @@
 - **`sourcebook`** (string): sourcebook of this class.
 - **`description`** (string): description of the class.
 - **`benefits`**:
-  - **`hp_bonus`** (int): bonus HP for taking the class
-  - **`mp_bonus`** (int): bonus MP for taking the class
-  - **`ip_bonus`** (int): bonus IP for taking the class
+  - **`custom`** (string): *comma-separated string* of custom benefits, including if the HP/MP bonus is an optional choice.
+  - **`hpBonus`** (int): bonus HP for taking the class
+  - **`mpBonus`** (int): bonus MP for taking the class
+  - **`ipBonus`** (int): bonus IP for taking the class
   - **`martial`**:
 	- **`melee`** (bool): whether this class allows martial melee weapons
 	- **`ranged`** (bool): whether this class allows martial ranged weapons
@@ -18,6 +19,36 @@
 	- **`entropism`** (bool): whether this class grants Entropism rituals
 	- **`ritualism`** (bool): whether this class grants Ritualism rituals
 	- **`spiritism`** (bool): whether this class grants Spiritism  rituals
+
+**Template**:
+```json
+{
+    "name": "Class",
+    "sourcebook": "Core Rules",
+    "description": "",
+    "benefits": {
+        "hpBonus": 0,
+        "mpBonus": 0,
+        "ipBonus": 0,
+        "martial": {
+            "melee": false,
+            "ranged": false,
+            "armor": false,
+            "shield": false
+        },
+        "rituals": {
+            "arcanism": false,
+            "chimerism": false,
+            "elementalism": false,
+            "entropism": false,
+            "ritualism": false,
+            "spiritism": false
+        },
+	    "initiateProjects": false,
+		"custom": ""
+    }
+}
+```
 
 # Skill
 - **`name`** (string): name of the skill. 
