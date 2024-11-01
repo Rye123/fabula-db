@@ -7,10 +7,14 @@ app = Flask(__name__)
 def index():
     return "<!DOCTYPE html><html><head><title>fabula-db</title></head><body>boo</body></html>"
 
+@app.route("/api/class/")
+def get_classes():
+    return data.get_classes()
+
 @app.route("/api/class/<class_name>")
 def get_class(class_name: str):
     classes = data.get_classes()
-    playerClass = classes.get(class_name.lower())
-    if playerClass is None:
+    player_class = classes.get(class_name.lower())
+    if player_class is None:
         return {"error": "no such class found"}, 404
-    return playerClass
+    return player_class
