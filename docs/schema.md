@@ -59,6 +59,19 @@
 - **`isPassiveSkill`** (bool): whether or not this skill is passive, or is active (i.e. is a potential action)
 - **`maxSkillLevel`** (int): maximum skill level
 
+**Template**:
+```json
+{
+    "name": "Skill",
+    "sourcebook": "Core Rules",
+    "description": "",
+	"requirements": "",
+	"isHeroicSkill": false,
+	"isPassiveSkill": false,
+	"maxSkillLevel": 1
+}
+```
+
 # Spell
 - **`name`** (string): name of the spell. 
 - **`sourcebook`** (string): sourcebook of this spell.
