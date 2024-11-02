@@ -8,25 +8,53 @@ import urllib.parse
 from flask import g
 from pathlib import Path
 
-CLASSES_JSON = Path("data/classes.json")
+DATA_CLASSES = Path("data/classes.json")
+DATA_SKILLS  = Path("data/skills.json")
 
-def urlsafe_classname(classname: str) -> str:
-    # Only accept alphanumeric characters, brackets and replace spaces with underscores
+ACCEPTED_CHARS = ['_', '-']
+
+def urlsafe_name(name: str) -> str:
+    # Only accept alphanumeric characters, brackets and replace spaces with underscores, raises an error if the name contains invalid characters
     result = ""
-    for c in classname.lower():
-        if c == '(' or c == ')' or c.isalpha():
+    for c in name.lower():
+        if c == '(' or c == ')' or c.isalnum():
             result += c
         elif c == ' ':
             result += '_'
+        elif c in ACCEPTED_CHARS:
+            result += c
+        else:
+            raise ValueError(f"Invalid character detected in name {name}: '{c}'")
     return result
 
-def get_classes() -> List[Dict[str, Any]]:
+def load_data_file(f: str) -> Dict[str, Dict[str, Any]]:
+    if not f.is_file():
+        raise ValueError(f"{str(f)} does not exist.")
+
+    ls = None
+    try:
+        ls = json.loads(f.read_text())
+    except json.JSONDecodeError as e:
+        raise ValueError(f"{str(f)} contains invalid JSON: {e}")
+
+    data_dict = {}
+    for elem in ls:
+        if "name" not in elem:
+            raise ValueError(f"{str(f)} contains an invalid element that does not have the \"name\" attribute. element: {repr(elem)}")
+            
+        data_dict[urlsafe_name(elem["name"])] = elem
+    return data_dict
+
+def get_classes() -> Dict[str, Dict[str, Any]]:
     """ Returns player classes """
     if "data_classes" not in g:
-        if not CLASSES_JSON.is_file():
-            raise ValueError(f"{str(CLASSES_JSON)} does not exist.")
-        class_ls = json.loads(CLASSES_JSON.read_text())
-        g.data_classes = {}
-        for playerclass in class_ls:
-            g.data_classes[urlsafe_classname(playerclass["name"])] = playerclass
+        g.data_classes = load_data_file(DATA_CLASSES)
+    
     return g.data_classes
+
+def get_skills() -> Dict[str, Dict[str, Any]]:
+    """ Returns skills """
+    if "data_skills" not in g:
+        g.data_skills = load_data_file(DATA_SKILLS)
+
+    return g.data_skills
