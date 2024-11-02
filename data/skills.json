@@ -2,8 +2,7 @@
     {
 	"name": "Arcane Circle",
 	"sourcebook": "Core Rules",
-	"description": "After you willingly **dismiss** an Arcanum on your turn during a conflict (see next page), if that Arcanum had not been **summoned** during this same turn and you have an **arcane** weapon equipped, you may immediately perform the **Spell** action for free. The spell you cast this way must have a **total MP cost of【SL × 5】or lower** (you must still pay the spell's MP cost).
-",
+	"description": "After you willingly **dismiss** an Arcanum on your turn during a conflict (see next page), if that Arcanum had not been **summoned** during this same turn and you have an **arcane** weapon equipped, you may immediately perform the **Spell** action for free. The spell you cast this way must have a **total MP cost of【SL × 5】or lower** (you must still pay the spell's MP cost).",
 	"requirements": "Arcanist",
 	"isHeroicSkill": false,
 	"isPassiveSkill": true,
@@ -444,8 +443,7 @@
     {
 	"name": "Soul Steal",
 	"sourcebook": "Core Rules",
-	"description": "You may use an action to perform a**【DEX + WLP】**Check against the Magic Defense of a creature you can see. If you succeed and the target is a **soldier**, you recover**【SL】**IP; if they are an **elite** or **champion**, the GM gives you the target’s **soul treasure**, an item worth an amount of zenit **equal to or lower than【the target's level multiplied by 30, or by 50 if they are a Villain】**. This **soul treasure** will appear inside your **backpack**; a creature can be successfully stolen from with this Skill only once. You gain a bonus equal to**【SL】**to your**【DEX + WLP】**Checks for this Skill.
-",
+	"description": "You may use an action to perform a**【DEX + WLP】**Check against the Magic Defense of a creature you can see. If you succeed and the target is a **soldier**, you recover**【SL】**IP; if they are an **elite** or **champion**, the GM gives you the target’s **soul treasure**, an item worth an amount of zenit **equal to or lower than【the target's level multiplied by 30, or by 50 if they are a Villain】**. This **soul treasure** will appear inside your **backpack**; a creature can be successfully stolen from with this Skill only once. You gain a bonus equal to**【SL】**to your**【DEX + WLP】**Checks for this Skill.",
 	"requirements": "Rogue",
 	"isHeroicSkill": false,
 	"isPassiveSkill": false,
@@ -526,8 +524,7 @@
     {
 	"name": "Support Magic",
 	"sourcebook": "Core Rules",
-	"description": "When you cast a spell that targets one or more allies, if you have an **arcane** weapon equipped, you may choose one of those allies you have a **Bond** towards. If you do, that ally gains a bonus to the next Check they perform during the current scene; this bonus is equal to the **strength** of your Bond towards them.
-",
+	"description": "When you cast a spell that targets one or more allies, if you have an **arcane** weapon equipped, you may choose one of those allies you have a **Bond** towards. If you do, that ally gains a bonus to the next Check they perform during the current scene; this bonus is equal to the **strength** of your Bond towards them.",
 	"requirements": "Spiritist",
 	"isHeroicSkill": false,
 	"isPassiveSkill": true,
