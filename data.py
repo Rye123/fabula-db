@@ -18,7 +18,8 @@ ACCEPTED_CHARS = ['_', '-']
 #TODO: might need to allow links if we link to external stuff, which also means attribs needs to enable href
 ALLOWED_TAGS = [
     "strong", "b",
-    "em", "i"
+    "em", "i",
+    "br"
 ]
 ALLOWED_ATTRIBS = {}
 
@@ -53,14 +54,19 @@ def load_data_file(f: str) -> Dict[str, Dict[str, Any]]:
             
 
         # Convert the markdown description to HTML and sanitise
-        desc = markdown.markdown(elem["description"])
-        desc = bleach.clean(
-            desc,
-            tags=ALLOWED_TAGS,
-            attributes=ALLOWED_ATTRIBS,
-            strip=True
-        )
-        elem["description"] = desc
+        final_desc = ""
+        paragraphs = elem["description"].splitlines()
+        for paragraph in paragraphs:
+            desc = markdown.markdown(paragraph)
+            desc = bleach.clean(
+                desc,
+                tags=ALLOWED_TAGS,
+                attributes=ALLOWED_ATTRIBS,
+                strip=True
+            )
+            desc = "<div>" + desc + "</div>"
+            final_desc += desc
+        elem["description"] = final_desc
         
         
         data_dict[urlsafe_name(elem["name"])] = elem
