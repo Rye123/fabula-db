@@ -4,7 +4,7 @@ import ClassItem from "@/components/ClassItem.vue";
 import showdown from 'showdown'
 import sanitizeHtml from 'sanitize-html'
 
-const fileClasses = "./data/classes.json";
+const fileClasses = new URL('/data/classes.json', import.meta.url);
 const pClasses = ref(null);
 
 const filterName = ref("");

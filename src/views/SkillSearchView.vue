@@ -4,7 +4,7 @@ import SkillItem from "@/components/SkillItem.vue";
 import showdown from 'showdown'
 import sanitizeHtml from 'sanitize-html'
 
-const fileSkills = "./data/skills.json";
+const fileSkills = new URL('/data/skills.json', import.meta.url);
 const skills = ref(null);
 
 const filterName = ref("");
