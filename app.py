@@ -1,10 +1,12 @@
 from flask import Flask, request
+from flask_cors import CORS
 from flasgger import Swagger
 
 import data
 
 app = Flask(__name__)
 Swagger(app)
+CORS(app, resources={r"/api/*": {"origins": "*"}})
 
 @app.route("/")
 def index():

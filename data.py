@@ -4,6 +4,8 @@ Provides functions to load local data
 from typing import Dict, Any, List
 
 import json
+import markdown
+import bleach
 import urllib.parse
 from flask import g
 from pathlib import Path
@@ -12,6 +14,13 @@ DATA_CLASSES = Path("data/classes.json")
 DATA_SKILLS  = Path("data/skills.json")
 
 ACCEPTED_CHARS = ['_', '-']
+
+#TODO: might need to allow links if we link to external stuff, which also means attribs needs to enable href
+ALLOWED_TAGS = [
+    "strong", "b",
+    "em", "i"
+]
+ALLOWED_ATTRIBS = {}
 
 def urlsafe_name(name: str) -> str:
     # Only accept alphanumeric characters, brackets and replace spaces with underscores, raises an error if the name contains invalid characters
@@ -42,7 +51,21 @@ def load_data_file(f: str) -> Dict[str, Dict[str, Any]]:
         if "name" not in elem:
             raise ValueError(f"{str(f)} contains an invalid element that does not have the \"name\" attribute. element: {repr(elem)}")
             
+
+        # Convert the markdown description to HTML and sanitise
+        desc = markdown.markdown(elem["description"])
+        desc = bleach.clean(
+            desc,
+            tags=ALLOWED_TAGS,
+            attributes=ALLOWED_ATTRIBS,
+            strip=True
+        )
+        elem["description"] = desc
+        
+        
         data_dict[urlsafe_name(elem["name"])] = elem
+        
+        
     return data_dict
 
 def get_classes() -> Dict[str, Dict[str, Any]]:
