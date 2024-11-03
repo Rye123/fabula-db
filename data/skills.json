@@ -2,7 +2,7 @@
     {
 	"name": "Arcane Circle",
 	"sourcebook": "Core Rules",
-	"description": "After you willingly **dismiss** an Arcanum on your turn during a conflict (see next page), if that Arcanum had not been **summoned** during this same turn and you have an **arcane** weapon equipped, you may immediately perform the **Spell** action for free. The spell you cast this way must have a **total MP cost of【SL × 5】or lower** (you must still pay the spell's MP cost).",
+	"description": "After you willingly **dismiss** an Arcanum on your turn during a conflict, if that Arcanum had not been **summoned** during this same turn and you have an **arcane** weapon equipped, you may immediately perform the **Spell** action for free. The spell you cast this way must have a **total MP cost of【SL × 5】or lower** (you must still pay the spell's MP cost).",
 	"requirements": "Arcanist",
 	"isHeroicSkill": false,
 	"isPassiveSkill": true,
@@ -20,7 +20,7 @@
     {
 	"name": "Bind and Summon",
 	"sourcebook": "Core Rules",
-	"description": "You may **bind** Arcana to your soul and **summon** them later. The Game Master will tell you the details of each binding process when you first encounter the Arcanum in question. You may use an action and spend 40 MP to **summon** an Arcanum you have bound. If you take this Skill at character creation, you begin play with one Arcanum of your choice already bound to you, chosen from the list on the next pages. Other than that, you may only obtain new Arcana through exploration and story progression.",
+	"description": "You may **bind** Arcana to your soul and **summon** them later. The Game Master will tell you the details of each binding process when you first encounter the Arcanum in question. You may use an action and spend 40 MP to **summon** an Arcanum you have bound. If you take this Skill at character creation, you begin play with one Arcanum of your choice already bound to you. Other than that, you may only obtain new Arcana through exploration and story progression.",
 	"requirements": "Arcanist",
 	"isHeroicSkill": false,
 	"isPassiveSkill": false,
