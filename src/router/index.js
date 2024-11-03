@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from "@/views/HomeView.vue";
+import ClassSearchView from "@/views/ClassSearchView.vue";
 import SkillSearchView from "@/views/SkillSearchView.vue";
 import NotFoundView from "@/views/NotFoundView.vue";
 
@@ -10,6 +11,11 @@ const router = createRouter({
             path: '/',
             name: 'home',
             component: HomeView
+        },
+        {
+            path: '/classes',
+            name: 'classes',
+            component: ClassSearchView
         },
         {
             path: '/skills',
