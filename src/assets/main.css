@@ -33,7 +33,5 @@ strong {
 
   #app {
     display: grid;
-    grid-template-columns: 0.25fr 0.75fr;
-    padding: 0 2rem;
   }
 }

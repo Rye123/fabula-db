@@ -1,16 +1,16 @@
 <script setup>
-import SkillSearch from "@/components/SkillSearch.vue";
-
+import { RouterLink, RouterView } from 'vue-router'
 </script>
 
 <template>
     <header>
-
+      <nav>
+        <RouterLink to="/">Home</RouterLink>
+        <RouterLink to="/skills">Skills</RouterLink>
+      </nav>
     </header>
 
-    <main>
-      <Suspense><SkillSearch :skills="() => $refs['dataSkills']" /></Suspense>
-    </main>
+    <RouterView />
 </template>
 
 <style scoped>
