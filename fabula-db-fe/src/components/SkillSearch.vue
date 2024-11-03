@@ -27,19 +27,20 @@ const filteredSkills = computed(() => {
 
 <template>
     <header>
+      <h1>Skills</h1>
     </header>
 
     <main>
       <div>
-        <h1>Filter</h1>
+        <h2>Filter</h2>
         <b>Name</b>: <input type="text" v-model="filterName" /> <br />
         <b>Requirements</b>: <input type="text" v-model="filterReq" /> <br />
         <b>Description</b>: <input type="text" v-model="filterDesc" /> <br />
       </div>
       <ul v-if="skills">
         <li v-for="skill in filteredSkills" v-bind:key="skill.name">
-          <h1 v-if="skill.maxSkillLevel !== 1">{{ skill.name }} (✦{{ skill.maxSkillLevel }})<br /></h1>
-          <h1 v-else>{{ skill.name }}<br /></h1>
+          <h3 v-if="skill.maxSkillLevel !== 1">{{ skill.name }} (✦{{ skill.maxSkillLevel }})<br /></h3>
+          <h3 v-else>{{ skill.name }}<br /></h3>
           <div><i>{{ skill.requirements }}</i></div>
           <div v-html="skill.description"></div>
         </li>
