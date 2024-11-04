@@ -10,10 +10,20 @@ const skills = ref(null);
 const filterName = ref("");
 const filterReq = ref("");
 const filterDesc = ref("");
+const filterClassSkills = ref(true);
+const filterHeroicSkills = ref(true);
 const filteredSkills = computed(() => {
   if (filterName.value === "" && filterReq.value === "" && filterDesc.value === "")
     return skills.value;
   return skills.value.filter(skill => {
+    if (!filterHeroicSkills.value)
+      if (skill.isHeroicSkill)
+        return false;
+
+    if (!filterClassSkills.value)
+      if (!skill.isHeroicSkill)
+        return false;
+
     if (!skill.name.toLowerCase().includes(filterName.value.toLowerCase()))
       return false;
     if (!skill.unformattedDescription.toLowerCase().includes(filterDesc.value.toLowerCase()))
@@ -70,12 +80,21 @@ onMounted(async () => {
         <strong>Name</strong>: <input type="text" v-model="filterName" /> <br />
         <strong>Requirements</strong>: <input type="text" v-model="filterReq" /> <br />
         <strong>Description</strong>: <input type="text" v-model="filterDesc" /> <br />
+        <strong>Skill Type</strong>:
+        <ul>
+          <li><input type="checkbox" v-model="filterClassSkills" /> Include Class Skills</li>
+          <li><input type="checkbox" v-model="filterHeroicSkills" /> Include Heroic Skills</li>
+        </ul>
       </div>
-      <ul v-if="skills">
-        <li v-for="skill in filteredSkills" v-bind:key="skill.name">
-          <SkillItem :skill=skill />
-        </li>
-      </ul>
+      <br />
+      <hr />
+      <div v-if="skills">
+        <ul>
+          <li v-for="skill in filteredSkills" v-bind:key="skill.name">
+            <SkillItem :skill=skill />
+          </li>
+        </ul>
+      </div>
       <div v-else>Loading...</div>
     </div>
 </template>
