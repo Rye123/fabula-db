@@ -48,7 +48,6 @@ onMounted(async () => {
 
 <template>
   <div class="view">
-    <h1>Classes</h1>
     <div class="filterBox">
       <h3>Filter</h3>
       <label>Name<br /> <input type="text" v-model="filterName" /></label>

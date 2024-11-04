@@ -74,17 +74,14 @@ onMounted(async () => {
 
 <template>
     <div class="view">
-      <h1>Skills</h1>
       <div class="filterBox">
         <h3>Filter</h3>
         <label>Name<br /> <input type="text" v-model="filterName" /></label>
         <label>Requirements<br /> <input type="text" v-model="filterReq" /></label>
         <label>Description<br /> <input type="text" v-model="filterDesc" /></label>
-        <label>Skill Type</label>
-        <ul>
-          <li><input type="checkbox" v-model="filterClassSkills" /> Include Class Skills</li>
-          <li><input type="checkbox" v-model="filterHeroicSkills" /> Include Heroic Skills</li>
-        </ul>
+        <br />
+        <label><input type="checkbox" v-model="filterClassSkills" /> Include Class Skills </label>
+        <label><input type="checkbox" v-model="filterHeroicSkills" /> Include Heroic Skills</label>
       </div>
       <br />
       <div v-if="skills">
