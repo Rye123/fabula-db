@@ -49,6 +49,7 @@ a,
 
 strong {
   font-weight: bold;
+  color: var(--vt-c-text-dark-3);
 }
 
 @media (hover: hover) {
