@@ -15,8 +15,6 @@ const filterHeroicSkills = ref(true);
 const filteredSkills = computed(() => {
   if (!filterClassSkills.value && !filterHeroicSkills.value)
     return [];
-  if (filterName.value === "" && filterReq.value === "" && filterDesc.value === "" && filterClassSkills.value && filterHeroicSkills.value)
-    return skills.value;
   return skills.value.filter(skill => {
     if (!filterHeroicSkills.value)
       if (skill.isHeroicSkill)
@@ -34,7 +32,7 @@ const filteredSkills = computed(() => {
     if (!skill.requirements.toLowerCase().includes(filterReq.value.toLowerCase()))
       return false;
     return true;
-  });
+  }).sort((s1, s2) => s1.name > s2.name);
 });
 
 onMounted(async () => {
