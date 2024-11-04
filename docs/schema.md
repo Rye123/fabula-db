@@ -44,8 +44,8 @@
             "ritualism": false,
             "spiritism": false
         },
-	    "initiateProjects": false,
-		"custom": ""
+        "initiateProjects": false,
+        "custom": ""
     }
 }
 ```
@@ -56,7 +56,6 @@
 - **`description`** (string): description of the skill.
 - **`requirements`** (string): a *comma-separated string* that describes the prerequisites for taking the skill (e.g. class, mastered class, known skill, known spell)
 - **`isHeroicSkill`** (bool): whether or not this skill is a heroic skill.
-- **`isPassiveSkill`** (bool): whether or not this skill is passive, or is active (i.e. is a potential action)
 - **`maxSkillLevel`** (int): maximum skill level
 
 **Template**:
@@ -65,10 +64,9 @@
     "name": "Skill",
     "sourcebook": "Core Rules",
     "description": "",
-	"requirements": "",
-	"isHeroicSkill": false,
-	"isPassiveSkill": false,
-	"maxSkillLevel": 1
+    "requirements": "",
+    "isHeroicSkill": false,
+    "maxSkillLevel": 1
 }
 ```
 

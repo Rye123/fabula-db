@@ -53,13 +53,10 @@ onMounted(async () => {
             });
           }
 
-          return {
-            "name": skillJSON.name,
-            "requirements": skillJSON.requirements,
-            "description": finalDesc,
-            "unformattedDescription": unformattedDesc,
-            "maxSkillLevel": skillJSON.maxSkillLevel
-          };
+          skillJSON["description"] = finalDesc;
+          skillJSON["unformattedDescription"] = unformattedDesc;
+
+          return skillJSON;
         });
       })
 })

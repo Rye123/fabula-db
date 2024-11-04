@@ -5,7 +5,6 @@
     "description": "After you willingly **dismiss** an Arcanum on your turn during a conflict, if that Arcanum had not been **summoned** during this same turn and you have an **arcane** weapon equipped, you may immediately perform the **Spell** action for free. The spell you cast this way must have a **total MP cost of【SL × 5】or lower** (you must still pay the spell's MP cost).",
     "requirements": "Arcanist",
     "isHeroicSkill": false,
-    "isPassiveSkill": true,
     "maxSkillLevel": 4
   },
   {
@@ -14,7 +13,6 @@
     "description": "When you summon an Arcanum, you immediately recover**【SL × 5】HP**.",
     "requirements": "Arcanist",
     "isHeroicSkill": false,
-    "isPassiveSkill": true,
     "maxSkillLevel": 2
   },
   {
@@ -32,7 +30,6 @@
     "description": "As long as you are in Crisis, the cost for summoning your Arcana is reduced by**【SL × 5】MP**.",
     "requirements": "Arcanist",
     "isHeroicSkill": false,
-    "isPassiveSkill": true,
     "maxSkillLevel": 6
   },
   {
@@ -50,7 +47,6 @@
     "description": "After you deal damage to one or more creatures with a spell, if you have an **arcane**, **dagger** or **flail** weapon equipped, you recover**【SL × 2】MP**.",
     "requirements": "Chimerist",
     "isHeroicSkill": false,
-    "isPassiveSkill": true,
     "maxSkillLevel": 5
   },
   {
@@ -59,7 +55,6 @@
     "description": "You can communicate with creatures of the **beast**, **monster** and **plant** Species.",
     "requirements": "Chimerist",
     "isHeroicSkill": false,
-    "isPassiveSkill": true,
     "maxSkillLevel": 1
   },
   {
@@ -68,7 +63,6 @@
     "description": "When you deal damage to one or more creatures with one of your Chimerist spells, each of those creatures that share their **Species** with the creature you originally learned that spell from suffers **poisoned**.",
     "requirements": "Chimerist",
     "isHeroicSkill": false,
-    "isPassiveSkill": true,
     "maxSkillLevel": 1
   },
   {
@@ -77,7 +71,6 @@
     "description": "You may perform Rituals whose effects fall within the **Chimerism** discipline. When you acquire this Skill, choose**【INS + WLP】**or**【MIG + WLP】**. From now on, your Chimerism Rituals will use the chosen Attributes for the Magic Check.",
     "requirements": "Chimerist",
     "isHeroicSkill": false,
-    "isPassiveSkill": true,
     "maxSkillLevel": 1
   },
   {
@@ -86,7 +79,6 @@
     "description": "When you see a creature belonging to the **beast**, **monster** or **plant** Species cast a spell, you may immediately choose to learn that spell as a Chimerist spell of your own: if you do, record the **Species** of the creature you learned it from.\nWhen you first acquire this Skill, choose**【INS + WLP】or【MIG + WLP】**. From now on, your offensive Chimerist spells will use the chosen Attributes for the Magic Check, regardless of the Attributes used by the creature you learned the spell from. You may have **up to【SL + 2】different Chimerist spells** memorized this way. If you want to memorize a new Chimerist spell but are already at your limit, you must forget one of your old spells and replace it with the new spell.",
     "requirements": "Chimerist",
     "isHeroicSkill": false,
-    "isPassiveSkill": true,
     "maxSkillLevel": 10
   },
   {
@@ -95,7 +87,6 @@
     "description": "After you deal damage to one or more creatures, if you have a Bond towards at least one of those creatures, you may recover**【SL × 2】**HP and**【SL × 2】**MP.",
     "requirements": "Darkblade",
     "isHeroicSkill": false,
-    "isPassiveSkill": true,
     "maxSkillLevel": 5
   },
   {
@@ -104,7 +95,6 @@
     "description": "As long as you are in **Crisis**, you have Resistance to **dark** damage and **poison** damage.",
     "requirements": "Darkblade",
     "isHeroicSkill": false,
-    "isPassiveSkill": true,
     "maxSkillLevel": 1
   },
   {
@@ -122,7 +112,6 @@
     "description": "After another creature causes you to lose HP (with an attack, a spell or any other method), you may immediately perform the Study action on that creature for free. If you do, gain a bonus equal to**【SL】**to your Check.\nRemember, you can study the same aspect of a creature only once.",
     "requirements": "Darkblade",
     "isHeroicSkill": false,
-    "isPassiveSkill": true,
     "maxSkillLevel": 3
   },
   {
@@ -140,7 +129,6 @@
     "description": "When you cast an **instantaneous** spell, if you have an **arcane** weapon equipped, you may **increase the spell's total MP cost** by up to**【SL × 10】** MP. If you do so and the spell deals damage to one or more creatures, it will deal 5 extra damage to each creature for every 10 MP by which you increased its total MP cost.",
     "requirements": "Elementalist",
     "isHeroicSkill": false,
-    "isPassiveSkill": true,
     "maxSkillLevel": 3
   },
   {
@@ -149,7 +137,6 @@
     "description": "Each time you acquire this Skill, learn one Elementalist spell. Offensive Elementalist spells use**【INS + WLP】**for the Magic Check.",
     "requirements": "Elementalist",
     "isHeroicSkill": false,
-    "isPassiveSkill": true,
     "maxSkillLevel": 10
   },
   {
@@ -158,7 +145,6 @@
     "description": "When you cast an offensive spell, if you have an **arcane** weapon equipped, you gain a bonus to your Magic Check equal to**【SL × 2】**.",
     "requirements": "Elementalist",
     "isHeroicSkill": false,
-    "isPassiveSkill": true,
     "maxSkillLevel": 3
   },
   {
@@ -167,7 +153,6 @@
     "description": "You may perform Rituals whose effects fall within the **Elementalism** discipline.\nElementalism Rituals use**【INS + WLP】**for the Magic Check.",
     "requirements": "Elementalist",
     "isHeroicSkill": false,
-    "isPassiveSkill": true,
     "maxSkillLevel": 1
   },
   {
@@ -176,7 +161,6 @@
     "description": "When you cast an offensive spell targeting a **single creature**, if the spell has a **total MP cost of【SL × 10】or lower** and you have one or more **bow**, **brawling**, **dagger**, **flail**, **spear** or **sword** weapons equipped, you may choose one of those weapons. If you do, your Magic Check for the spell will use the chosen weapon's Accuracy Check formula; for instance, the Magic Check for an Elementalist spell cast through a **bronze sword** will be**【DEX + MIG】+1** instead of**【INS + WLP】**.",
     "requirements": "Elementalist",
     "isHeroicSkill": false,
-    "isPassiveSkill": true,
     "maxSkillLevel": 4
   },
   {
@@ -185,7 +169,6 @@
     "description": "After you suffer damage, you may immediately recover**【SL × 2】**MP.",
     "requirements": "Entropist",
     "isHeroicSkill": false,
-    "isPassiveSkill": true,
     "maxSkillLevel": 5
   },
   {
@@ -194,7 +177,6 @@
     "description": "Each time you acquire this Skill, learn one Entropist spell. Offensive Entropist spells use**【INS + WLP】**for the Magic Check.",
     "requirements": "Entropist",
     "isHeroicSkill": false,
-    "isPassiveSkill": true,
     "maxSkillLevel": 10
   },
   {
@@ -212,7 +194,6 @@
     "description": "You may perform Rituals whose effects fall within the **Entropism** discipline.\nEntropism Rituals use**【INS + WLP】**for the Magic Check.",
     "requirements": "Entropist",
     "isHeroicSkill": false,
-    "isPassiveSkill": true,
     "maxSkillLevel": 1
   },
   {
@@ -230,7 +211,6 @@
     "description": "As long as you are in **Crisis**, you deal**【SL × 2】**extra damage (be it with attacks, spells, Arcana, items or any other method).",
     "requirements": "Fury",
     "isHeroicSkill": false,
-    "isPassiveSkill": true,
     "maxSkillLevel": 5
   },
   {
@@ -239,7 +219,6 @@
     "description": "Your Accuracy Checks with **brawling**, **dagger**, **flail** and **thrown** weapons trigger a **critical success** if both dice show the same number (and the Check is not a **fumble**).",
     "requirements": "Fury",
     "isHeroicSkill": false,
-    "isPassiveSkill": true,
     "maxSkillLevel": 1
   },
   {
@@ -248,7 +227,6 @@
     "description": "When you spend one or more Fabula Points, you get an additional benefit — choose one option: you recover**【SL × 5】**HP; **or** you recover**【SL × 5】**MP; **or** you recover from a single status effect of your choice.",
     "requirements": "Fury",
     "isHeroicSkill": false,
-    "isPassiveSkill": true,
     "maxSkillLevel": 4
   },
   {
@@ -266,7 +244,6 @@
     "description": "When you perform the **Guard** action, if you choose not to provide cover to another creature, you recover HP equal to**【SL, multiplied by the highest strength among your Bonds】**and choose **Might** or **Willpower**: you treat the chosen Attribute as being one die size higher (up to a maximum of **d12**) until the end of your next turn.",
     "requirements": "Fury",
     "isHeroicSkill": false,
-    "isPassiveSkill": true,
     "maxSkillLevel": 5
   },
   {
@@ -275,7 +252,6 @@
     "description": "If you perform the **Guard** action and choose to provide cover to another creature, that creature gains Resistance to all damage types until the start of your next turn.",
     "requirements": "Guardian",
     "isHeroicSkill": false,
-    "isPassiveSkill": true,
     "maxSkillLevel": 1
   },
   {
@@ -284,7 +260,6 @@
     "description": "As long as you have a **shield** or a **martial armor** equipped, all damage you suffer isreduced by**【SL】**(applied **before** damage Affinities).",
     "requirements": "Guardian",
     "isHeroicSkill": false,
-    "isPassiveSkill": true,
     "maxSkillLevel": 5
   },
   {
@@ -293,7 +268,6 @@
     "description": "You may now equip a shield in your main hand slot. As long as you have two shieldsequipped, you gain the benefits of both items and may treat them as the **Twin Shields** weapon.",
     "requirements": "Guardian",
     "isHeroicSkill": false,
-    "isPassiveSkill": true,
     "maxSkillLevel": 1
   },
   {
@@ -302,7 +276,6 @@
     "description": "Permanently increase your max HP by**【SL × 3】**.",
     "requirements": "Guardian",
     "isHeroicSkill": false,
-    "isPassiveSkill": true,
     "maxSkillLevel": 5
   },
   {
@@ -320,7 +293,6 @@
     "description": "When you roll a **13 or higher** on a Check performed to investigate a creature, item or location — this includes using the **Study** action during a conflict — you may ask the Game Master up to**【SL】**questions concerning the subject of your investigation. You may ask these questions immediately or save them for later; whenever you ask one of these questions, the Game Master will answer truthfully and you will describe your character's deductive process.\nThis Skill may only be used once on the same creature, item or location.",
     "requirements": "Loremaster",
     "isHeroicSkill": false,
-    "isPassiveSkill": true,
     "maxSkillLevel": 3
   },
   {
@@ -329,7 +301,6 @@
     "description": "Permanently increase your maximum MP by**【SL × 3】**.\nWhen you perform an Open Check using**【INS + INS】**, you gain a bonus equal to**【SL】**on that Check (this **only** applies to Open Checks).",
     "requirements": "Loremaster",
     "isHeroicSkill": false,
-    "isPassiveSkill": true,
     "maxSkillLevel": 5
   },
   {
@@ -338,7 +309,6 @@
     "description": "When you perform an Accuracy Check, you may replace **one** of the Attribute dice with **Insight** (such as**【INS + INS】**for a **pistol** or**【INS + MIG】**for a **waraxe**).",
     "requirements": "Loremaster",
     "isHeroicSkill": false,
-    "isPassiveSkill": true,
     "maxSkillLevel": 1
   },
   {
@@ -347,7 +317,6 @@
     "description": "At the start of a conflict, you may spend up to**【SL × 5】**MP. For every 5 MP you spend this way, choose one option: choose a creature you can see and the GM reveals one of their **Traits**; **or** name a damage type and choose a creature you can see, and the GM reveals that creature's **Affinity** towards that damage type.",
     "requirements": "Loremaster",
     "isHeroicSkill": false,
-    "isPassiveSkill": true,
     "maxSkillLevel": 6
   },
   {
@@ -383,7 +352,6 @@
     "description": "After another Player Character who is able to hear you performs a Check, you may spend 1 Fabula Point and invoke one of their **Traits** or **Bonds** in order to let them reroll dice or improve the Result of the Check (following the normal rules). Then, if you have a **Bond** towards that character, they recover**【SL × 10】**MP.",
     "requirements": "Orator",
     "isHeroicSkill": false,
-    "isPassiveSkill": true,
     "maxSkillLevel": 2
   },
   {
@@ -392,7 +360,6 @@
     "description": "When you successfully perform a Check to fill or erase sections of a Clock, if your approach relied on **charm**, **diplomacy**, **deception** or **intimidation**, you may spend up to**【SL × 20】**MP. If you do, fill or erase an additional section of that Clock for every 20 MP you spend this way.",
     "requirements": "Orator",
     "isHeroicSkill": false,
-    "isPassiveSkill": true,
     "maxSkillLevel": 2
   },
   {
@@ -410,7 +377,6 @@
     "description": "When you hit a creature with an attack, if the attack **only** targeted that creature and they are suffering from **one or more status effects**, you may have it deal extra damage equal to**【SL + the number of status effects on the creature】**.",
     "requirements": "Rogue",
     "isHeroicSkill": false,
-    "isPassiveSkill": true,
     "maxSkillLevel": 5
   },
   {
@@ -419,7 +385,6 @@
     "description": "As long as you have no **shields** and no **martial armor** equipped, your Defense score is increased by**【SL】**.",
     "requirements": "Rogue",
     "isHeroicSkill": false,
-    "isPassiveSkill": true,
     "maxSkillLevel": 3
   },
   {
@@ -428,7 +393,6 @@
     "description": "At the start of a conflict, you may spend 10 MP. If you do, choose one option and apply it before the start of the first round: perform a **free attack** with a weapon you have equipped; **or** perform a **Hinder** or **Objective** action. You also gain a bonus equal to**【SL】**to all Checks you perform as part of the chosen option.",
     "requirements": "Rogue",
     "isHeroicSkill": false,
-    "isPassiveSkill": true,
     "maxSkillLevel": 3
   },
   {
@@ -455,7 +419,6 @@
     "description": "When you perform a **ranged** attack, you may spend 10 MP to choose one option: the attack gains **multi (2)**; or you increase the attack's **multi** property by one, up to a maximum of **multi (3)**.",
     "requirements": "Sharpshooter",
     "isHeroicSkill": false,
-    "isPassiveSkill": true,
     "maxSkillLevel": 1
   },
   {
@@ -464,7 +427,6 @@
     "description": "After a creature you can see performs a **ranged** attack, you may spend an amount of MP equal to the total Result of their Accuracy Check in order to have the attack fail automatically against all targets. You can only use this Skill if you have a **ranged** weapon equipped, and it has no effect if the Accuracy Check was a **critical success**.",
     "requirements": "Sharpshooter",
     "isHeroicSkill": false,
-    "isPassiveSkill": true,
     "maxSkillLevel": 1
   },
   {
@@ -473,7 +435,6 @@
     "description": "When you perform the **Guard** action, if you choose **not** to provide cover to another creature, you may choose one option: the next **ranged** attack you perform before the end of the current scene will deal**【SL × 2】**extra damage; **or** you may immediately perform a **free attack** with a **bow** or **firearm** you have equipped, treating your **High Roll (HR)** as 0 when calculating damage dealt by this attack.",
     "requirements": "Sharpshooter",
     "isHeroicSkill": false,
-    "isPassiveSkill": true,
     "maxSkillLevel": 5
   },
   {
@@ -482,7 +443,6 @@
     "description": "You gain a bonus equal to**【SL】**to all Accuracy Checks with **ranged** weapons.",
     "requirements": "Sharpshooter",
     "isHeroicSkill": false,
-    "isPassiveSkill": true,
     "maxSkillLevel": 4
   },
   {
@@ -491,7 +451,6 @@
     "description": "When you hit one or more targets with a **ranged** attack that would deal damage, you may have the attack deal no damage. If you do, choose one option: inflict **shaken** on each target hit by the attack; **or** inflict **slow** on each target hit by the attack; **or** each target hit by the attack loses**【SL × 10】**MP. Describe your maneuver!",
     "requirements": "Sharpshooter",
     "isHeroicSkill": false,
-    "isPassiveSkill": true,
     "maxSkillLevel": 4
   },
   {
@@ -500,7 +459,6 @@
     "description": "When you cast a spell that targets one or more allies, if you have an **arcane** weapon equipped, you may have each of those allies recover an amount of Hit Points equal to**【SL, multiplied by the number of Bonds you have】**.\nThis healing is separate from any healing caused by the effects of the spell.",
     "requirements": "Spiritist",
     "isHeroicSkill": false,
-    "isPassiveSkill": true,
     "maxSkillLevel": 2
   },
   {
@@ -509,7 +467,6 @@
     "description": "You may perform Rituals whose effects fall within the **Spiritism** discipline.\nSpiritism Rituals use**【INS + WLP】**for the Magic Check.",
     "requirements": "Spiritist",
     "isHeroicSkill": false,
-    "isPassiveSkill": true,
     "maxSkillLevel": 1
   },
   {
@@ -518,7 +475,6 @@
     "description": "Each time you acquire this Skill, learn one Spiritist spell.\nOffensive Spiritist spells use**【INS + WLP】**for the Magic Check.",
     "requirements": "Spiritist",
     "isHeroicSkill": false,
-    "isPassiveSkill": true,
     "maxSkillLevel": 10
   },
   {
@@ -527,7 +483,6 @@
     "description": "When you cast a spell that targets one or more allies, if you have an **arcane** weapon equipped, you may choose one of those allies you have a **Bond** towards. If you do, that ally gains a bonus to the next Check they perform during the current scene; this bonus is equal to the **strength** of your Bond towards them.",
     "requirements": "Spiritist",
     "isHeroicSkill": false,
-    "isPassiveSkill": true,
     "maxSkillLevel": 1
   },
   {
@@ -536,7 +491,6 @@
     "description": "When you cast a spell, if you don't have enough MP to pay for its total cost, you may choose to spend **twice as many** HP instead. You cannot use this Skill if doing so would reduce you to 0 HP. If a spell cast this way would cause you to recover HP, you instead recover no HP (the spell functions normally on any other target).",
     "requirements": "Spiritist",
     "isHeroicSkill": false,
-    "isPassiveSkill": true,
     "maxSkillLevel": 1
   },
   {
@@ -545,7 +499,6 @@
     "description": "Once per conflict scene, if you are in **Crisis**, you may perform an additional action on your turn. This action **must** be the **Inventory** action.",
     "requirements": "Tinkerer",
     "isHeroicSkill": false,
-    "isPassiveSkill": true,
     "maxSkillLevel": 1
   },
   {
@@ -554,7 +507,6 @@
     "description": "When you first acquire this Skill, choose a gadget type: **alchemy**, **infusions** or **magitech**. You gain its **basic benefits**.\nWhenever you take this Skill again, choose one option: you gain the **basic benefits** of a new gadget type; **or** you gain the **advanced benefits** of a gadget type whose **basic benefits** you already obtained; **or** you gain the **superior benefits** of a gadget type whose **advanced benefits** you already obtained.",
     "requirements": "Tinkerer",
     "isHeroicSkill": false,
-    "isPassiveSkill": true,
     "maxSkillLevel": 5
   },
   {
@@ -563,7 +515,6 @@
     "description": "When you create a **potion** that restores a single creature's HP and/or MP, you may have it affect up to**【SL】**additional creatures. If you do, the potion only restores half the normal amount of HP and MP to each creature.",
     "requirements": "Tinkerer",
     "isHeroicSkill": false,
-    "isPassiveSkill": true,
     "maxSkillLevel": 2
   },
   {
@@ -572,7 +523,6 @@
     "description": "When you create a **potion** or **magisphere** whose effects restore HP and/or MP, each restored amount is increased by**【SL × 5】**.\nWhen you create an **elemental shard**, **potion** or **magisphere** that deals damage, that item deals**【SL】**extra damage.",
     "requirements": "Tinkerer",
     "isHeroicSkill": false,
-    "isPassiveSkill": true,
     "maxSkillLevel": 5
   },
   {
@@ -581,7 +531,6 @@
     "description": "When you work on a **Project**, up to**【SL × 100】**zenit of material costs are automatically paid; additionally, you generate an additional**【SL】progress** every day. If multiple characters with this Skill work on the same Project, the effects will be cumulative.",
     "requirements": "Tinkerer",
     "isHeroicSkill": false,
-    "isPassiveSkill": true,
     "maxSkillLevel": 5
   },
   {
@@ -599,7 +548,6 @@
     "description": "You recover**【SL】**IP after each **travel roll**.",
     "requirements": "Wayfarer",
     "isHeroicSkill": false,
-    "isPassiveSkill": true,
     "maxSkillLevel": 4
   },
   {
@@ -608,7 +556,6 @@
     "description": "When you **rest** inside an inn or tavern, you may ask the Game Master up to**【SL】**questions about your surroundings and the people who live here; the Game Master will answer truthfully and you describe how you gathered the information.",
     "requirements": "Wayfarer",
     "isHeroicSkill": false,
-    "isPassiveSkill": true,
     "maxSkillLevel": 3
   },
   {
@@ -617,7 +564,6 @@
     "description": "When your group journeys on the world map, you will make a **discovery** on a roll of**【SL + 1】**or lower on the **travel roll** (instead of only on a **1**).",
     "requirements": "Wayfarer",
     "isHeroicSkill": false,
-    "isPassiveSkill": true,
     "maxSkillLevel": 2
   },
   {
@@ -626,7 +572,6 @@
     "description": "You reduce the die rolled for your **travel rolls** by one size (to a minimum of **d6**).\nIf multiple characters have this Skill, the effects are **not** cumulative.",
     "requirements": "Wayfarer",
     "isHeroicSkill": false,
-    "isPassiveSkill": true,
     "maxSkillLevel": 1
   },
   {
@@ -635,7 +580,6 @@
     "description": "When you perform a **melee** attack, you may spend 10 MP to choose one option: the attack gains **multi (2)**; **or** you increase the attack's **multi** property by one, up to a maximum of **multi (3)**.",
     "requirements": "Weaponmaster",
     "isHeroicSkill": false,
-    "isPassiveSkill": true,
     "maxSkillLevel": 1
   },
   {
@@ -644,7 +588,6 @@
     "description": "When you hit one or more targets with a **melee** attack that would deal damage, you may have the attack deal no damage. If you do, choose one option: inflict **dazed** on each target hit by the attack; **or** inflict **weak** on each target hit by the attack; **or** each target hit by the attack loses**【SL × 10】**MP. Describe your maneuver!",
     "requirements": "Weaponmaster",
     "isHeroicSkill": false,
-    "isPassiveSkill": true,
     "maxSkillLevel": 4
   },
   {
@@ -662,7 +605,6 @@
     "description": "After an enemy **hits or misses you with a melee attack**, if the Result of their Accuracy Check was an **even number**, you may perform a **free attack** against that enemy (after their attack has been fully resolved). This attack must be a **melee** attack and must have that enemy as its **only** target; treat your **High Roll (HR)** as 0 when calculating damage dealt by this attack.",
     "requirements": "Weaponmaster",
     "isHeroicSkill": false,
-    "isPassiveSkill": true,
     "maxSkillLevel": 1
   },
   {
@@ -671,7 +613,6 @@
     "description": "You gain a bonus equal to**【SL】**to all Accuracy Checks with **melee** weapons.",
     "requirements": "Weaponmaster",
     "isHeroicSkill": false,
-    "isPassiveSkill": true,
     "maxSkillLevel": 4
   }
 ]
