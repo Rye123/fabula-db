@@ -75,31 +75,29 @@ onMounted(async () => {
 <template>
     <div class="view">
       <h1>Skills</h1>
-      <div>
-        <h2>Filter</h2>
-        <strong>Name</strong>: <input type="text" v-model="filterName" /> <br />
-        <strong>Requirements</strong>: <input type="text" v-model="filterReq" /> <br />
-        <strong>Description</strong>: <input type="text" v-model="filterDesc" /> <br />
-        <strong>Skill Type</strong>:
+      <div class="filterBox">
+        <h3>Filter</h3>
+        <label>Name<br /> <input type="text" v-model="filterName" /></label>
+        <label>Requirements<br /> <input type="text" v-model="filterReq" /></label>
+        <label>Description<br /> <input type="text" v-model="filterDesc" /></label>
+        <label>Skill Type</label>
         <ul>
           <li><input type="checkbox" v-model="filterClassSkills" /> Include Class Skills</li>
           <li><input type="checkbox" v-model="filterHeroicSkills" /> Include Heroic Skills</li>
         </ul>
       </div>
       <br />
-      <hr />
-      <br />
       <div v-if="skills">
-        <ul>
-          <li v-for="skill in filteredSkills" v-bind:key="skill.name">
-            <SkillItem :skill=skill />
-          </li>
-        </ul>
+        <div class="skillItem" v-for="skill in filteredSkills" v-bind:key="skill.name">
+          <SkillItem :skill=skill />
+        </div>
       </div>
       <div v-else>Loading...</div>
     </div>
 </template>
 
 <style scoped>
-
+.skillItem {
+  padding-bottom: 1rem;
+}
 </style>

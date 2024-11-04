@@ -2,9 +2,41 @@
 
 #app {
   max-width: 1280px;
+  width: 100vw;
   margin: 0 auto;
   padding: 2rem;
   font-weight: normal;
+}
+
+.filterBox {
+  border: 0.1rem solid var(--color-border);
+  border-radius: 15px;
+  padding: 1rem;
+}
+.filterBox:hover {
+  border: 0.1rem solid var(--color-border-hover);
+}
+
+h3, h3 span {
+  font-weight: bold;
+  color: var(--color-accent);
+}
+
+label {
+  color: var(--color-text);
+  display: block;
+  margin: 0.25rem;
+}
+
+input[type='text'] {
+  background-color: var(--color-background-soft);
+  color: var(--color-text);
+  border: 0.1rem solid var(--color-border);
+  accent-color: var(--color-accent);
+}
+
+input[type="checkbox"] {
+  accent-color: var(--color-accent);
 }
 
 a,

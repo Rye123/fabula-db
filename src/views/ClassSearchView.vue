@@ -49,19 +49,22 @@ onMounted(async () => {
 <template>
   <div class="view">
     <h1>Classes</h1>
-    <div>
-      <h2>Filter</h2>
-      <strong>Name</strong>: <input type="text" v-model="filterName" /> <br />
+    <div class="filterBox">
+      <h3>Filter</h3>
+      <label>Name<br /> <input type="text" v-model="filterName" /></label>
     </div>
-    <ul v-if="pClasses">
-      <li v-for="pClass in filteredClasses" v-bind:key="pClass.name">
+    <br />
+    <div v-if="pClasses">
+      <div class="classItem" v-for="pClass in filteredClasses" v-bind:key="pClass.name">
         <ClassItem :pClass=pClass />
-      </li>
-    </ul>
+      </div>
+    </div>
     <div v-else>Loading...</div>
   </div>
 </template>
 
 <style scoped>
-
+.classItem {
+  padding-bottom: 1rem;
+}
 </style>
