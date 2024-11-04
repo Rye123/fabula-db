@@ -614,5 +614,253 @@
     "requirements": "Weaponmaster",
     "isHeroicSkill": false,
     "maxSkillLevel": 4
+  },
+  {
+    "name": "Adversity",
+    "sourcebook": "Core Rules",
+    "description": "As long as you are suffering from one or more status effects, you gain a +1 bonus on all Checks for every status effect you are suffering from, and you deal 2 extra damage for every status effect you are suffering from (be it with attacks, spells, Arcana, items or any other method).",
+    "requirements": "Mastered Darkblade",
+    "isHeroicSkill": true,
+    "maxSkillLevel": 1
+  },
+  {
+    "name": "Ambidextrous",
+    "sourcebook": "Core Rules",
+    "description": "You may apply the benefits of **two-weapon fighting** to weapons belonging to different categories, even if one is a **melee** weapon and the other is a **ranged** weapon (such as a **dagger** and a **firearm**, for instance).",
+    "requirements": "",
+    "isHeroicSkill": true,
+    "maxSkillLevel": 1
+  },
+  {
+    "name": "Arcane Echoes",
+    "sourcebook": "Core Rules",
+    "description": "When you successfully perform a Check to fill or erase one or more sections of a Clock, if the **domains** of one or more Arcana you have bound are applicable to the Check in question, you may fill or erase an additional section of that Clock.\nThe Game Master has final say on whether a given domain applies or not.",
+    "requirements": "Mastered Arcanist",
+    "isHeroicSkill": true,
+    "maxSkillLevel": 1
+  },
+  {
+    "name": "Chimeric Mastery",
+    "sourcebook": "Core Rules",
+    "description": "Choose two creature Species among **construct**, **demon**, **elemental**, and **undead**. You can now use **Spell Mimic** to learn spells from creatures of the chosen Species.\nThis Heroic Skill **may be acquired up to twice**, each time selecting two Species from the list above.\nWhenever you acquire this Skill, you also increase your upper limit for memorized Chimerist spells by 2.",
+    "requirements": "Mastered Chimerist",
+    "isHeroicSkill": true,
+    "maxSkillLevel": 1
+  },
+  {
+    "name": "Comet",
+    "sourcebook": "Core Rules",
+    "description": "You learn the ultimate **Entropist** spell: **Comet**.",
+    "requirements": "Mastered Entropist",
+    "isHeroicSkill": true,
+    "maxSkillLevel": 1
+  },
+  {
+    "name": "Deep Pockets",
+    "sourcebook": "Core Rules",
+    "description": "When you spend IP, you spend 1 less IP (minimum 1).",
+    "requirements": "Mastered Tinkerer",
+    "isHeroicSkill": true,
+    "maxSkillLevel": 1
+  },
+  {
+    "name": "Disarming Rhetoric",
+    "sourcebook": "Core Rules",
+    "description": "During a conflict scene, you may use an action and choose a **soldier**-rank creature that can hear and understand you (the Game Master must tell you who is a valid target). If that creature is **shaken** or in **Crisis**, you may spend an amount of MP equal to**【20 + half that creature's level】**to have them peacefully leave the conflict.\nDescribe how you convince them to desist.",
+    "requirements": "Mastered Orator",
+    "isHeroicSkill": true,
+    "maxSkillLevel": 1
+  },
+  {
+    "name": "Extra HP",
+    "sourcebook": "Core Rules",
+    "description": "Permanently increase your maximum HP by 10.\nThe amount of additional HP increases to 20 if you are **level 40 or higher**.",
+    "requirements": "",
+    "isHeroicSkill": true,
+    "maxSkillLevel": 1
+  },
+  {
+    "name": "Extra IP",
+    "sourcebook": "Core Rules",
+    "description": "Permanently increase your maximum IP by 4.",
+    "requirements": "",
+    "isHeroicSkill": true,
+    "maxSkillLevel": 1
+  },
+  {
+    "name": "Extra MP",
+    "sourcebook": "Core Rules",
+    "description": "Permanently increase your maximum MP by 10.\nThe amount of additional MP increases to 20 if you are **level 40 or higher**.",
+    "requirements": "",
+    "isHeroicSkill": true,
+    "maxSkillLevel": 1
+  },
+  {
+    "name": "Extra Spells",
+    "sourcebook": "Core Rules",
+    "description": "When you acquire this Skill, learn any two spells from one of the following lists: **Elementalist**, **Entropist**, or **Spiritist**. Both spells chosen this way must come from the same list, and they follow the standard rules for casting spells of that Class.",
+    "requirements": "",
+    "isHeroicSkill": true,
+    "maxSkillLevel": 1
+  },
+  {
+    "name": "Heartbreaker",
+    "sourcebook": "Core Rules",
+    "description": "When you hit a creature with an attack, if that attack **only** targeted that creature and you have a **Bond** towards them, you may choose to spend half of your current HP, rounded down. If you do, the attack deals extra damage equal to**【10 multiplied by the strength of your Bond towards the target】**.\nYou may use this Skill only on your turn during a conflict, and **only once per turn**.",
+    "requirements": "Mastered Darkblade",
+    "isHeroicSkill": true,
+    "maxSkillLevel": 1
+  },
+  {
+    "name": "Heroic Companion",
+    "sourcebook": "Core Rules",
+    "description": "Your bond with your companion grows stronger. You gain the following benefits:\n- The companion's maximum HP increases by 10.\n- Choose one of the companion's Attributes: **Dexterity**, **Insight**, **Might**, or **Willpower**. The chosen Attribute is permanently increased by one die size (up to a maximum size of **d12**).\n- The companion gains an additional Skill. When you reach level **40**, or if you have already reached it, the companion gains an additional Skill. Make sure to discuss your Skill choices with the Game Master and the other Players.",
+    "requirements": "Mastered Wayfarer, Faithful Companion",
+    "isHeroicSkill": true,
+    "maxSkillLevel": 1
+  },
+  {
+    "name": "Hope",
+    "sourcebook": "Core Rules",
+    "description": "You learn the ultimate **Spiritist** spell: **Hope**.",
+    "requirements": "Mastered Spiritist",
+    "isHeroicSkill": true,
+    "maxSkillLevel": 1
+  },
+  {
+    "name": "Mathemagic",
+    "sourcebook": "Core Rules",
+    "description": "When you cast a spell with a target of \"One creature\", you may **double the spell's total MP cost**. If you do, choose an Attribute (**Dexterity**, **Insight**, **Might**, or **Willpower**) and a die size (**d6**, **d8**, **d10** or **d12**). The spell now targets **all** creatures present on the scene whose **current** Attribute die size matches your choice, regardless of whether they are friends or foes (you might even end up targeting yourself). The effects of the spell are fully applied to every target.\nIf the spell is an offensive spell, it follows the normal rules: you perform a single Magic Check and confront it with the Magic Defense of each target to determine who is hit by the spell.",
+    "requirements": "Mastered Loremaster",
+    "isHeroicSkill": true,
+    "maxSkillLevel": 1
+  },
+  {
+    "name": "Monkey Grip",
+    "sourcebook": "Core Rules",
+    "description": "You may equip two-handed weapons belonging to the **flail**, **heavy**, **spear**, or **sword** Categories in a single hand slot.\nThis allows you, for instance, to enjoy the benefits of **two-weapon fighting** while wielding a pair of two-handed weapons, **or** to equip a two-handed weapon in your **main hand slot** and a shield in your **off-hand slot**.",
+    "requirements": "Mastered Fury",
+    "isHeroicSkill": true,
+    "maxSkillLevel": 1
+  },
+  {
+    "name": "Perfect Aim",
+    "sourcebook": "Core Rules",
+    "description": "When you hit one or more creatures with a **ranged** attack and choose to deal no damage in order to gain the benefits of the **Warning Shot** Skill, you may choose **two** options instead of one (for instance, you could inflict both **shaken** and **slow** on each creature, or inflict a status effect on each creature while also lowering their MP).",
+    "requirements": "Mastered Rogue, Warning Shot",
+    "isHeroicSkill": true,
+    "maxSkillLevel": 1
+  },
+  {
+    "name": "Pillage",
+    "sourcebook": "Core Rules",
+    "description": "When you use the **Soul Steal** Skill, you may target any number of creatures at the same time (you perform a single Check and compare it to the Magic Defense of each creature you are attempting to steal from).",
+    "requirements": "Mastered Rogue, Soul Steal",
+    "isHeroicSkill": true,
+    "maxSkillLevel": 1
+  },
+  {
+    "name": "Powerful Shot",
+    "sourcebook": "Core Rules",
+    "description": "When you hit one or more creatures with a **ranged** attack, that attack deals 5 extra damage to each creature.\nThe amount of extra damage increases to 10 if you are **level 40 or higher**.",
+    "requirements": "Mastered Sharpshooter",
+    "isHeroicSkill": true,
+    "maxSkillLevel": 1
+  },
+  {
+    "name": "Powerful Spell",
+    "sourcebook": "Core Rules",
+    "description": "When you cast a spell that deals damage to one or more creatures, that spell deals 5 extra damage to each creature.\nThe amount of extra damage increases to 10 if you are **level 40 or higher**.",
+    "requirements": "Mastered Chimerist or Mastered Elementalist or Mastered Entropist or Mastered Spiritist",
+    "isHeroicSkill": true,
+    "maxSkillLevel": 1
+  },
+  {
+    "name": "Powerful Strike",
+    "sourcebook": "Core Rules",
+    "description": "When you hit one or more creatures with a **melee** attack, that attack deals 5 extra damage to each creature.\nThe amount of extra damage increases to 10 if you are **level 40 or higher**.",
+    "requirements": "Mastered Fury or Mastered Weaponmaster",
+    "isHeroicSkill": true,
+    "maxSkillLevel": 1
+  },
+  {
+    "name": "Predictable!",
+    "sourcebook": "Core Rules",
+    "description": "During a conflict, you may use an action and spend 20 MP to anticipate the upcoming moves of a creature you can see, as long as you know **two or more** of that creature's **Traits**. If you do so, choose one type of action among the following: **Attack**, **Guard**, **Objective**, **Spell**, or **Skill**. Until the start of your next turn, the creature must spend 20 MP whenever they wish to perform that action. If they can't, they must perform a different action.",
+    "requirements": "Mastered Loremaster",
+    "isHeroicSkill": true,
+    "maxSkillLevel": 1
+  },
+  {
+    "name": "Rampart",
+    "sourcebook": "Core Rules",
+    "description": "During the first round of each conflict scene, you have Resistance to all damage types and cannot suffer status effects (you **do not** recover from preexisting status effects, however). These benefits only last until the end of the first round.",
+    "requirements": "Mastered Guardian",
+    "isHeroicSkill": true,
+    "maxSkillLevel": 1
+  },
+  {
+    "name": "Repetition",
+    "sourcebook": "Core Rules",
+    "description": "Once per turn during a conflict, after you use the **Condemn** Skill or the **Encourage** Skill, you may immediately perform that same Skill again (on the same target or a different\none). You must still pay the MP cost for the second use of the Skill.",
+    "requirements": "Mastered Orator",
+    "isHeroicSkill": true,
+    "maxSkillLevel": 1
+  },
+  {
+    "name": "Revelation",
+    "sourcebook": "Core Rules",
+    "description": "You make contact with an unknown Arcanum and bind it to your soul. This Arcanum must be something you design together with the rest of the group; as long as you live, no one else in your world will be able to bind that Arcanum.\nOnce per scene while you are **merged** with an Arcanum, you may use an action and spend 2 Fabula Points to **trigger** that Arcanum's **dismiss** effect (if any) without dismissing them. Doing so **does not** trigger the **Arcane Circle** Skill.",
+    "requirements": "Mastered Arcanist",
+    "isHeroicSkill": true,
+    "maxSkillLevel": 1
+  },
+  {
+    "name": "Status Immunity",
+    "sourcebook": "Core Rules",
+    "description": "You become completely immune to a single status effect of your choice.",
+    "requirements": "Mastered Wayfarer",
+    "isHeroicSkill": true,
+    "maxSkillLevel": 1
+  },
+  {
+    "name": "Tempest Strike",
+    "sourcebook": "Core Rules",
+    "description": "When you perform a **melee** attack with the **multi** property, if you choose to target only one creature, the attack deals 5 extra damage if the attack had **multi (2)**, or 10 extra damage if the attack had **multi (3 or higher)**.",
+    "requirements": "Mastered Weaponmaster",
+    "isHeroicSkill": true,
+    "maxSkillLevel": 1
+  },
+  {
+    "name": "Unbreakable",
+    "sourcebook": "Core Rules",
+    "description": "Once per scene when you are about to be reduced to 0 HP, you may instead choose to withstand the pain and be reduced to exactly 1 HP.",
+    "requirements": "Mastered Guardian",
+    "isHeroicSkill": true,
+    "maxSkillLevel": 1
+  },
+  {
+    "name": "Upgrade",
+    "sourcebook": "Core Rules",
+    "description": "Once per **rest**, you may choose one option: add a **Quality** to a single weapon, armor, or shield that doesn't have one; **or** replace the current **Quality** of a single weapon, armor, or shield with a different **Quality**.\nWhen you use this Skill, you must select a Quality from the default list for that item type as long as the cost modifier associated with that ability is **+1000 zenit or lower**. Then, you must spend an amount of zenit equal to **twice** the cost modifier of the chosen ability. The modified item will be ready at the end of the rest; you may only modify **one item per rest**.",
+    "requirements": "Mastered Tinkerer",
+    "isHeroicSkill": true,
+    "maxSkillLevel": 1
+  },
+  {
+    "name": "Vanish",
+    "sourcebook": "Core Rules",
+    "description": "When you hit one or more creatures with an attack, you may spend 1 Fabula Point. If you do, each of those creatures will be unable to perform any action that requires them to be able to see you until the start of your next turn.",
+    "requirements": "Mastered Rogue",
+    "isHeroicSkill": true,
+    "maxSkillLevel": 1
+  },
+  {
+    "name": "Volcano",
+    "sourcebook": "Core Rules",
+    "description": "You learn the ultimate **Elementalist** spell: **Volcano**.",
+    "requirements": "Mastered Elementalist",
+    "isHeroicSkill": true,
+    "maxSkillLevel": 1
   }
 ]
