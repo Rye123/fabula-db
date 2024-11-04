@@ -1,16 +1,10 @@
-# fabula-db-fe
+# fabula-db
 
-This template should help get you started developing with Vue 3 in Vite.
+Static frontend that provides a searchable reference of [Fabula Ultima](https://need.games/fabula-ultima/) classes, skills, spells as well as class-specific things
+- This is written in Vue 3 with Vite, with the data stored in JSON files under [`./public/data`](./public/data).
+- Refer to [this page](./docs/schema.md) for the expected JSON schema for the data.
 
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
+## Setup
 
 ```sh
 npm install
@@ -21,12 +15,14 @@ npm install
 ```sh
 npm run dev
 ```
+- This runs with base URL `/`, which is the expected default for local development.
 
 ### Compile and Minify for Production
 
 ```sh
 npm run build
 ```
+- This runs with base URL `/fabula-ultima/`, since this is expected to be run for Github Pages.
 
 ### Lint with [ESLint](https://eslint.org/)
 
