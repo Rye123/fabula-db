@@ -13,7 +13,9 @@ const filterDesc = ref("");
 const filterClassSkills = ref(true);
 const filterHeroicSkills = ref(true);
 const filteredSkills = computed(() => {
-  if (filterName.value === "" && filterReq.value === "" && filterDesc.value === "")
+  if (!filterClassSkills.value && !filterHeroicSkills.value)
+    return [];
+  if (filterName.value === "" && filterReq.value === "" && filterDesc.value === "" && filterClassSkills.value && filterHeroicSkills.value)
     return skills.value;
   return skills.value.filter(skill => {
     if (!filterHeroicSkills.value)
@@ -50,7 +52,7 @@ onMounted(async () => {
           for (var para of paras) {
             var desc = converter.makeHtml(para);
             desc = sanitizeHtml(desc, {
-              allowedTags: [ 'b', 'strong', 'i', 'em', 'br' ],
+              allowedTags: [ 'b', 'strong', 'i', 'em', 'br', 'ul', 'li' ],
               allowedAttributes: {},
               disallowedTagsMode: 'discard'
             });
@@ -88,6 +90,7 @@ onMounted(async () => {
       </div>
       <br />
       <hr />
+      <br />
       <div v-if="skills">
         <ul>
           <li v-for="skill in filteredSkills" v-bind:key="skill.name">
